@@ -1,0 +1,36 @@
+img {
+	 border-radius: 50px;
+	
+	width:350px;
+	
+
+}
+body {
+  font-family: Tahoma, sans-serif;
+}	
+
+
+.blue{
+	color: blue;
+	font-size: 32px;
+	
+}
+
+.red{
+	color: red;
+	font-size: 20px;
+	
+}
+.bigFont{
+	font-size: 32px;
+}
+
+#specialStyle {
+	border: 2px solid blue;
+	background: lightblue;
+	
+}
+
+table, th, td {
+  border:1px solid black;
+}
