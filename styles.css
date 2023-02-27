@@ -59,6 +59,7 @@ img{
 }
 .nicepic{
 	height: 350px;
+	
 
 }
 .title{
@@ -74,7 +75,31 @@ img{
 	height:250px;
 }
 .bg-gradiant2{
-		height:400vh;
-		width: 400vh;
+		height:300vh;
+		width: 300vh;
 		background-image: linear-gradient( #000066,#3366cc);
+}
+.column {
+  float: left;
+  width: 37%;
+  padding: 10px;
+  
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.div{
+	float: left;
+	width:300px;
+}
+.parent{
+
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+
+column-gap: 5px;
+
 }
