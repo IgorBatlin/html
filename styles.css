@@ -14,7 +14,6 @@ header{
 }
 .bg-gradiant{
 	height:150vh;
-	width: 150vh;
 	background-image: linear-gradient( #000066,#3366cc);
 }
 header ul{
@@ -58,7 +57,8 @@ img{
 	background-color:#000066
 }
 .nicepic{
-	height: 350px;
+	height: 450px;
+	width: auto;
 	
 
 }
@@ -76,7 +76,7 @@ img{
 }
 .bg-gradiant2{
 		height:300vh;
-		width: 300vh;
+	
 		background-image: linear-gradient( #000066,#3366cc);
 }
 .column {
