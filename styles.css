@@ -57,7 +57,7 @@ img{
 	background-color:#000066
 }
 .nicepic{
-	height: 450px;
+	height: 50%;
 	width: auto;
 	
 
@@ -91,6 +91,6 @@ img{
   display: table;
 }
 .div{
-	float: left;
+	float: center;
 	width:300px;
 }

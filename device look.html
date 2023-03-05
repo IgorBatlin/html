@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   .mobileDevice {
+      position: relative;
+      width: 360px;
+      height: 400px;
+      margin: auto;
+      border: 16px rgb(7, 80, 35) solid;
+      border-top-width: 60px;
+      border-bottom-width: 60px;
+      border-radius: 36px;
+   }
+   .mobileDevice:after {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      left: 50%;
+      bottom: -65px;
+      transform: translate(-50%, -50%);
+      background: #333;
+      border-radius: 50%;
+      border:2px solid rgb(200, 255, 0);
+   }
+   .mobileDevice .screen {
+      width: 360px;
+      height: 400px;
+      background: white;
+   }
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">Device look example </h1>
+<div class="mobileDevice">
+<div class="screen">
+<iframe src="https://wikipedia.org/" style="width:100%;border:none;height:100%" />
+</div>
+</div>
+</body>
+</html>
