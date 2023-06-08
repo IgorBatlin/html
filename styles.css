@@ -95,28 +95,3 @@ img{
 	float: center;
 	width:300px;	
 }
-.navbar{
-	
-header ul{
-	float: right;
-	list-style: none;
-}
-header ul li{
-	display: inline-block;
-	padding: 5 20px;
-	border-radius: 5px;
-	transition: 0.2s;
-	
-}
-header ul li a {
-	text-decoration: none;
-	color: white;
-	
-}
-header ul li:nth-child(1){
-	background-color: black;
-}
-
-header ul li:hover{
-	background-color: black;
-}
